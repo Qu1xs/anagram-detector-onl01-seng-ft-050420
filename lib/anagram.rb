@@ -1,6 +1,7 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :word, :list
+  attr_accessor :word, :element
+  
   
   def initialize(word)
     @word = word
